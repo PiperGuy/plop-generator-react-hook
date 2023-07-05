@@ -1,6 +1,6 @@
 {
     "name": "@piperguy/plop-generator-react-hook",
-    "version": "1.1.1",
+    "version": "0.1.0",
     "description": "💧 plop generator react hook",
     "keywords": [
         "node",
