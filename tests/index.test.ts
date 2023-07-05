@@ -1,11 +1,8 @@
-import {expect, test} from "vitest"
+import nodePlop from "node-plop"
 
-import {sayHello} from "../src"
+import generator from "../src"
 
-test("says hello world", () => {
-    expect(sayHello()).toEqual("Hello, world!")
-})
-
-test("says hello Naveen", () => {
-    expect(sayHello("Naveen")).toEqual("Hello, Naveen!")
+test("loads generator", () => {
+    const plop = nodePlop("tests/utils/plopfile.ts")
+    expect(generator(plop)).toBeUndefined()
 })

@@ -2,23 +2,16 @@
 .vscode
 
 # dependencies
-.cache
 node_modules
 
 # build
-dist
+.next
+
+# host
+.vercel
 
 # test
 coverage
 
-# host
-.netlify
-
 # secrets
 .env*
-
-# logs
-debug.log
-
-# templates
-*.hbs
